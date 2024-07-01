@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a:link,
+:visited,
+:hover,
+:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: ghostwhite;
+}

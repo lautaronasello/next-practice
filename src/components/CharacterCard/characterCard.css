@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+.bodyCard {
+  gap: 1rem;
+}
+
+.card {
+  width: 20rem;
+  height: auto;
+  background: #fff;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-img-holder {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.card-img-holder img {
+  width: 100%;
+  height: auto;
+  max-height: 15rem;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+.blog-title {
+  color: #212121;
+  font-size: 1.5rem;
+}
+
+.description {
+  color: #212122;
+  font-size: 1rem;
+}
+
+.blog-time {
+  font-size: 0.8rem;
+  color: #212121;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.options span {
+  font-weight: 600;
+  color: #212222;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 400;
+  background: #eef7fe;
+  color: #212121;
+  cursor: pointer;
+  border: none;
+}
